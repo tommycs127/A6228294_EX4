@@ -53,6 +53,8 @@ public class CES extends Student {
 	
 	private static void WriteFile (ArrayList<Student> list, String filepath) {
 		
+		System.out.println("Hello world!");
+		
         FileWriter fileWriter = null;
         PrintWriter printWriter = null;
         String record = "";
